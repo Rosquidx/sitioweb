@@ -221,7 +221,7 @@ button:hover{
     width: 36px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 710px){
     
     .proyectos-tarjetas{
         flex-direction: column;
