@@ -7,8 +7,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #fff;
+}
+
+body::-webkit-scrollbar{
+    background:white;
+    width: 8px;
+    height: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(41, 128, 185, 0.5);
+    border-radius: 10px;
+    width: 5px;
 }
 
 .contenedor-menu{
@@ -50,8 +64,7 @@ nav ul li a{
 
 .landing-page{
     width: 80%;
-    margin: 15px auto;
-    height: 87vh;
+    margin: 80px auto 99px auto;
     display: flex;
     align-items: center;
     position: relative;
@@ -69,7 +82,9 @@ nav ul li a{
    margin: 15px auto;
    max-width: 88%;
 }
-
+.landing-text{
+    max-width: 550px;
+}
 .landing-text h1{
     color: #2980B9;
 }
@@ -199,6 +214,10 @@ button:hover{
 }
 #trucazo{
     opacity: 0;
+}
+
+.landing-text img{
+    width: 36px;
 }
 
 @media screen and (max-width: 500px){
