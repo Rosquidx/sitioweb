@@ -77,9 +77,10 @@ nav ul li a{
       
 }
 .img-andres img{
-   width: 80%;
+   width: 65%;
    border-radius: 80%;
    margin: 15px auto;
+   margin-left: 85px;
    max-width: 88%;
 }
 .landing-text{
@@ -236,5 +237,8 @@ button:hover{
     }
     .contacto-portafolio{
         width: 80%;
+    }
+    .img-andres img{
+        margin-left: 45px;
     }
 }
